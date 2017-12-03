@@ -62,11 +62,4 @@ class Generate
   
 end
 
-k = Generate.new("a.txt")
-
-=begin
-k.data.each do |a|
-  print a
-  puts
-end
-=end
+k = Generate.new("sample1.txt")
